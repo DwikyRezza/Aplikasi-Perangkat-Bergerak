@@ -81,14 +81,14 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               "Welcome,",
               style: TextStyle(
-                color: Color.fromRGBO(31, 30, 44, 1), // Tetap ungu sesuai demo awal [cite: 2]
+                color: Color.fromRGBO(31, 30, 44, 1),
                 fontSize: 28,
                 fontWeight: FontWeight.w700,
                 letterSpacing: 0.25,
               ),
             ),
             Text(
-              "Dwiky Rezza", // Nama sudah diupdate
+              "Dwiky Rezza", 
               style: TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.w500,
@@ -114,7 +114,6 @@ class _MyHomePageState extends State<MyHomePage> {
       width: double.infinity,
       padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
       decoration: BoxDecoration(
-        // WARNA HITAM SOLID (Tanpa Gradasi)
         color: Color.fromRGBO(31, 30, 44, 1), 
         borderRadius: BorderRadius.circular(15),
         boxShadow: [
